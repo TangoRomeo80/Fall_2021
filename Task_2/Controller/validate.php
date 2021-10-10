@@ -80,11 +80,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             array_push($val_err, "Password must be 8 characters long.");
         }
     }
-    if(!isset($_POST["up_file"])) array_push($req_err, "File selection Required");
+    if(empty($_FILES["up_file"]["name"])) array_push($req_err, "File selection Required");
     else {
-        move_uploaded_file ($_FILES["up_file"]["tmp_name"],'images/' . $_FILES["up_file"]["name"]);
+        //move_uploaded_file ($_FILES["up_file"]["tmp_name"],'images/' . $_FILES["up_file"]["name"]);
         $file_path = 'images/' . $_FILES["up_file"]["name"];
     }
 }
-
 ?>

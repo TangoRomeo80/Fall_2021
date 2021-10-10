@@ -8,5 +8,15 @@
         "email": "tanzeemrahat80@gmail.com",
         "password": "12345678",
         "image": "images\/trainer-1.jpg"
+    },
+    {
+        "firstName": "Tanzeem",
+        "lastName": "Rahat",
+        "age": "20",
+        "designation": "Junior Programmer",
+        "language": "JAVA",
+        "email": "tanzeemrahat80@gmail.com",
+        "password": "12345678",
+        "image": "images\/testimonials-5.jpg"
     }
 ]
