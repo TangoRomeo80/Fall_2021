@@ -1,0 +1,42 @@
+[
+    {
+        "firstName": "Tanzeem",
+        "lastName": "Rahat",
+        "age": "20",
+        "designation": "Junior Programmer",
+        "language": "PHP",
+        "email": "tanzeemrahat80@gmail.com",
+        "password": "12345678",
+        "image": "images\/"
+    },
+    {
+        "firstName": "Tanzeem",
+        "lastName": "Rahat",
+        "age": "20",
+        "designation": "Junior Programmer",
+        "language": "JAVA",
+        "email": "tanzeemrahat80@gmail.com",
+        "password": "12345678",
+        "image": "images\/"
+    },
+    {
+        "firstName": "Tanzeem",
+        "lastName": "Rahat",
+        "age": "20",
+        "designation": "Junior Programmer",
+        "language": "JAVA",
+        "email": "tanzeemrahat80@gmail.com",
+        "password": "12345678",
+        "image": "images\/"
+    },
+    {
+        "firstName": "Tanzeem",
+        "lastName": "Rahat",
+        "age": "20",
+        "designation": "Junior Programmer",
+        "language": "JAVA",
+        "email": "tanzeemrahat80@gmail.com",
+        "password": "12345678",
+        "image": "images\/"
+    }
+]
