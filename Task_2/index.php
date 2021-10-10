@@ -12,7 +12,7 @@
     <body>
         <h1>Registration Form</h1>
         <hr>
-        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?> enctype ="multipart/form-data">
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" enctype="multipart/form-data">
             <label for="first_name">First Name:</label> <input type="text" name="first_name" ><br>
             <label for="last_name">Last Name:</label> <input type="text" name="last_name"><br>
             <label for="age">Age:</label> <input type="text" name="age"><br>
