@@ -62,4 +62,5 @@ input[type='reset'] {
   padding: 16px 32px;
   text-decoration: none;
   margin: 4px 2px;
+  box-shadow: 2px 2px;
 }
