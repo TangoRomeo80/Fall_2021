@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FTTask 1</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <hr />
+    <form name="myForm" id="myForm" method="post" action="" onsubmit="validate()">
+      <label for="first_name">First Name:</label>
+      <input type="text" name="first_name" /><br />
+      <label for="last_name">Last Name:</label>
+      <input type="text" name="last_name" /><br />
+      <label for="age">Age:</label> <input type="text" name="age" /><br />
+      <label for="designation">Designation:</label>
+      <input type="radio" name="designation" value="Junior Programmer" />junior
+      programmer
+      <input type="radio" name="designation" value="Senior Programmer" />Senior
+      programmer
+      <input type="radio" name="designation" value="Project Lead" />Project lead
+      <br />
+      <label for="language">Preferred language:</label>
+      <input type="checkbox" name="language" value="JAVA" />JAVA
+      <input type="checkbox" name="language" value="PHP" />PHP
+      <input type="checkbox" name="language" value="C++" />C++
+      <br />
+      <label for="email">E-mail: </label>
+      <input type="text" name="email" /><br />
+      <label for="password">Password: </label>
+      <input type="password" name="password" /><br />
+      <label for="up_file">Please choose a file</label>
+      <input type="file" name="up_file" /><br />
+      <input type="submit" name="submit" value="Submit" />
+      <input type="reset" name="reset" value="Reset" />
+    </form>
+    >
+    <p id="success"></p>
+
+    <script src="validate.js"></script>
+  </body>
+</html>
