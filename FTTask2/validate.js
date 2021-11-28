@@ -72,6 +72,7 @@ function validate() {
     listItem.appendChild(document.createTextNode(password))
     list.appendChild(listItem)
     document.getElementById('success').appendChild(list)
+    return true
   } else {
     let list = document.createElement('ul')
     for (let i = 0; i < reqErr.length; i++) {
@@ -88,4 +89,5 @@ function validate() {
     }
     document.getElementById('success').appendChild(listVal)
   }
+  return false
 }
