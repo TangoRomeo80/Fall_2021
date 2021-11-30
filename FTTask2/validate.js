@@ -14,16 +14,18 @@ function testPass(passWord) {
 }
 
 function validate() {
+  document.getElementById('success').innerHTML = ''
+
   let reqErr = []
   let valErr = []
 
   let firstName = document.forms['myForm']['first_name'].value
   let lastName = document.forms['myForm']['last_name'].value
   let age = document.forms['myForm']['age'].value
-  let designation = document.forms['myForm']['age'].value
-  let language = document.forms['myForm']['language'].value
+  let designation = document.forms['myForm']['designation'].value
+  let language = document.forms['myForm']['language'].checked
   let email = document.forms['myForm']['email'].value
-  let password = document.forms['myForm']['language'].value
+  let password = document.forms['myForm']['password'].value
 
   if (firstName === '') reqErr.push('First Name is required')
   else {
@@ -44,7 +46,7 @@ function validate() {
   }
   if (password === '') reqErr.push('Password is required')
   else {
-    if (!testMail(email))
+    if (!testPass(password))
       valErr.push('password should be more than 8 characters')
   }
 
@@ -82,9 +84,9 @@ function validate() {
     }
     document.getElementById('success').appendChild(list)
     let listVal = document.createElement('ul')
-    for (let i = 0; i < reqErr.length; i++) {
+    for (let i = 0; i < valErr.length; i++) {
       let listItem = document.createElement('li')
-      listItem.appendChild(document.createTextNode(reqErr[i]))
+      listItem.appendChild(document.createTextNode(valErr[i]))
       listVal.appendChild(listItem)
     }
     document.getElementById('success').appendChild(listVal)
