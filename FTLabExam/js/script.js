@@ -14,6 +14,6 @@ function getEmp() {
             document.getElementById("result").innerHTML = this.status;
         }
     };
-    xhttp.open("GET", "/controller/process.php?id="+id+"&"+"name="+name+"&"+"salaryMin="+salaryMin+"&"+"salaryMax="+salaryMax, true);
+    xhttp.open("GET", "controller/process.php?id="+id+"&"+"name="+name+"&"+"salaryMin="+salaryMin+"&"+"salaryMax="+salaryMax, true);
     xhttp.send();
 }
